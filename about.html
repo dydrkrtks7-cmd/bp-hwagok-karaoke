@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화곡 가라오케 정보 | 위치, 주차, 이용 꿀팁 총정리</title>
+    <meta name="description" content="화곡 가라오케 방문 전 꼭 확인해야 할 상세 정보입니다. 지하철역 위치, 주차 공간 여부, 맘대로노래방과의 차이점까지 싹 정리해 드립니다.">
+    <meta name="keywords" content="화곡 가라오케, 화곡동 노래방, 화곡역 위치, 가라오케 주차, 화곡 노래방 정보">
+    <link rel="canonical" href="https://hwagok-karaoke.pages.dev">
+    <meta property="og:title" content="화곡 가라오케 상세 정보">
+    <meta property="og:description" content="길 잃지 않고 바로 찾아오는 법, 주차까지 해결하는 법. 화곡 가라오케 방문 가이드.">
+    <meta property="og:url" content="https://hwagok-karaoke.pages.dev">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="화곡 가라오케 상세 정보">
+    <meta name="twitter:description" content="방문 전 필수 체크리스트. 위치와 주차 정보를 확인하세요.">
+    <style>
+        :root {
+            --bg-color: #f4f4f4;
+            --text-color: #333;
+            --accent-color: #000;
+            --border-color: #333;
+            --card-bg: #fff;
+            --font-main: 'Courier New', Courier, monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            padding: 20px;
+            box-shadow: 10px 10px 0px var(--border-color);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+            border: 1px solid var(--border-color);
+            padding: 5px 15px;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+
+        .nav a:hover {
+            background-color: var(--accent-color);
+            color: var(--card-bg);
+        }
+
+        .hero {
+            background-color: var(--accent-color);
+            color: var(--card-bg);
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 2px solid var(--border-color);
+        }
+
+        .hero h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        .content-section h3 {
+            font-size: 1.2rem;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background: #eee;
+            padding: 5px 10px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .info-card {
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            background: #fafafa;
+        }
+
+        .info-card strong {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: underline;
+        }
+
+        .tel-link {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            text-decoration: none;
+            border-bottom: 2px dashed var(--border-color);
+        }
+
+        .review {
+            margin-top: 40px;
+            border-top: 2px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        .review h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .review ul {
+            list-style: none;
+        }
+
+        .review li {
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .review .nick {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .review .date {
+            font-size: 0.8rem;
+            color: #666;
+            float: right;
+        }
+
+        .review .rating {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+                box-shadow: 5px 5px 0px var(--border-color);
+            }
+            
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <h1>HWAGOK KARAOKE INFO</h1>
+        <p>화곡동에서 노래 부를 때 필요한 모든 데이터</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">홈</a></li>
+            <li><a href="reviews.html">후기</a></li>
+            <li><a href="info.html" style="background-color: #000; color: #fff;">정보</a></li>
+            <li><a href="contact.html">연락처</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>방문 전 필수 체크리스트</h2>
+        <p>길찾기 헤매지 마세요. 주차 걱정도 NO. 화곡 가라오케 이용을 위한 100% 실전 가이드입니다.</p>
+    </section>
+
+    <section class="content-section">
+        <h3>📍 위치 및 접근성 (Location)</h3>
+        <div class="info-grid">
+            <div class="info-card">
+                <strong>지하철</strong>
+                <p>5 호선 화곡역 2 번 출구 도보 3 분<br>골목 안쪽으로 쭉 들어가시면 보입니다.</p>
+            </div>
+            <div class="info-card">
+                <strong>자가용</strong>
+                <p>네비게이션에 '화곡 가라오케' 검색<br>건물 앞 소규모 주차장 이용 가능 (선착순)</p>
+            </div>
+        </div>
+        <p style="margin-top: 10px; font-size: 0.9rem;">* 주말 저녁에는 주차 공간이 부족할 수 있으니 대중교통 이용을 강력 추천합니다. 저희는 지하철역과 가깝거든요!</p>
+    </section>
+
+    <section class="content-section">
+        <h3>💰 이용 요금 및 시간 (Pricing)</h3>
+        <div class="info-card" style="width: 100%;">
+            <p><strong>평일 (월 - 목):</strong> 1 시간 기준 1 인 5,000 원<br>
+            <strong>주말 (금 - 일):</strong> 1 시간 기준 1 인 7,000 원<br>
+            <strong>심야 할인:</strong> 오후 10 시 이후 20% 할인 적용</p>
+            <br>
+            <p>음료는 별도이며, 내부 자판기 또는 카운터에서 구매 가능합니다. (소주/맥주 취급)</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h3>📞 예약 및 문의 (Contact)</h3>
+        <p>단체 예약이나 특정 룸 요청은 전화로 미리 연락주세요. 공석 확인이 빠릅니다.</p>
+        <br>
+        <p>전화번호: <a href="tel:01062790862" class="tel-link">010-6279-0862</a></p>
+        <p>운영시간: 매일 12:00 - 익일 05:00</p>
+    </section>
+
+    <section class="content-section">
+        <h3>❓ 자주 묻는 질문 (FAQ)</h3>
+        <div class="info-card" style="margin-bottom: 10px;">
+            <strong>Q. 미성년자도 이용 가능한가요?</strong>
+            <p>A. 네, 보호자 동반 시 이용 가능합니다. 하지만 심야 시간대 (22 시 이후) 는 제한될 수 있습니다.</p>
+        </div>
+        <div class="info-card">
+            <strong>Q. 음식 반입이 가능한가요?</strong>
+            <p>A. 기본 음료 외 외부 음식 반입은 제한됩니다. 치킨 등 배달 음식은 카운터에서 주문해주세요.</p>
+        </div>
+    </section>
+
+    <section class="review">
+        <h2>최근 방문자 코멘트</h2>
+        <ul>
+            <li>
+                <span class="nick">노래왕철수</span>
+                <span class="date">2023.10.25</span>
+                <p>"위치 찾기가 좀 어려웠는데, 전화하니 친절하게 길 알려줌. 음향 상태 굿."</p>
+                <span class="rating">Rating: ★★★★☆</span>
+            </li>
+            <li>
+                <span class="nick">화곡주민 A</span>
+                <span class="date">2023.10.20</span>
+                <p>"주차 공간이 좁긴 한데, 회전율 빨라서 기다릴 필요는 없었음. 가격 합리적."</p>
+                <span class="rating">Rating: ★★★★☆</span>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 화곡 가라오케 정보. All rights reserved.</p>
+        <p>본 사이트는 정보 제공을 목적으로 하며, 실제 운영 정책은 현장과 다를 수 있습니다.</p>
+    </footer>
+</div>
+
+</body>
+</html>
