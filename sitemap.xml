@@ -170,4 +170,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://hwagok-song-info.mapo-room-guide.xyz/posts/gemini-coverage-20260731-0036.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
